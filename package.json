@@ -16,11 +16,15 @@
     "prepublishOnly" : "npm test && npm run lint",
     "preversion" : "npm run lint",
     "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "postversion" : "git push && git push --tags",
+    "login": "npm login --registry=https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EyeCaptainProject/ec-app-engine.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "Jonas Konstantin Trittler",
