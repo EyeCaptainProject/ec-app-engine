@@ -1,8 +1,8 @@
 export class Test {
 
-  private number;
+  private aNumber;
 
-  constructor(number: number) {
-    this.number = number;
+  constructor(aNumber: number) {
+    this.aNumber = aNumber;
   }
 }
