@@ -1,5 +1,8 @@
 export class Test {
-  constructor() {
-    console.log('lel');
+
+  private number;
+
+  constructor(number: number) {
+    this.number = number;
   }
 }
