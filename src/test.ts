@@ -1,3 +1,5 @@
 export class Test {
-  constructor() {}
+  constructor() {
+    console.log('lel');
+  }
 }
