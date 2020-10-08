@@ -1,0 +1,6 @@
+{
+  "appName": "%APP_NAME%",
+  "appClass": "%CLASS_NAME%",
+  "appIcon": "%APP_ICON%",
+  "mainScreen": "%MAIN_SCREEN%"
+}
