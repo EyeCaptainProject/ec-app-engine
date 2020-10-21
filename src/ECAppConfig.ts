@@ -10,9 +10,10 @@ export interface LauncherIconConfig {
 
 export class ECAppConfig{
 
-    name: string;
+  name!: string;
+  /*
     contactEmail: string;
-    launcherIcon: LauncherIconConfig;
+    launcherIcon: LauncherIconConfig;*/
 
 
     private static assertKey(object: any, key: string): any{

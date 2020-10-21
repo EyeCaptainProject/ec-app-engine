@@ -1,6 +1,8 @@
 export abstract class Screen {
 
-    private mainLayout;
+/*
+    private mainLayout: string;
+*/
 
     protected constructor() {
 

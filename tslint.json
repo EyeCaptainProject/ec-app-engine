@@ -1,5 +1,5 @@
 {
-    "defaultSeverity": "error",
+    "defaultSeverity": "warn", // Chanhe to error
     "extends": [
         "tslint:recommended", "tslint-config-prettier"
     ],
