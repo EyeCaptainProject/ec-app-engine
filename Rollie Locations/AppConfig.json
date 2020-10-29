@@ -1,0 +1,6 @@
+{
+  "appName": "Rollie Locations",
+  "appClass": "Test",
+  "appIcon": "appIcon.png",
+  "mainScreen": "%MAIN_SCREEN%"
+}
