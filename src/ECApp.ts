@@ -3,12 +3,14 @@ export abstract class ECApp {
 
   static async getInstanceOf(className: string, path: string) {
     const AppClassImport = await import(path);
-    return new AppClassImport[className] as ECApp;
+    return new AppClassImport[className]() as ECApp;
   }
 
-  protected constructor() { }
+  protected constructor() {}
 
-  get theNumber(){ return this.aNumber }
+  get theNumber() {
+    return this.aNumber;
+  }
 
   abstract onResume(): void;
   abstract onPause(): void;

@@ -1,4 +1,4 @@
-import "reflect-metadata";
+import 'reflect-metadata';
 
 // Storing config files: https://www.electronjs.org/docs/api/app#appgetpathname
 
@@ -14,25 +14,17 @@ function classDecorator<T extends { new (...args: any[]): {} }>(constructor: T) 
 }
 */
 
-
 export class ECAppEngineConfig {
-
-    /**
-     * Singleton pattern
-     */
-    private static instance: ECAppEngineConfig;
-    public static getInstance(): ECAppEngineConfig{
-        if (!ECAppEngineConfig.instance){
-            ECAppEngineConfig.instance = new ECAppEngineConfig();
-        }
-        return ECAppEngineConfig.instance;
+  /**
+   * Singleton pattern
+   */
+  private static instance: ECAppEngineConfig;
+  public static getInstance(): ECAppEngineConfig {
+    if (!ECAppEngineConfig.instance) {
+      ECAppEngineConfig.instance = new ECAppEngineConfig();
     }
+    return ECAppEngineConfig.instance;
+  }
 
-
-    constructor(){
-
-    }
-
-
-
+  constructor() {}
 }

@@ -1,3 +1,1 @@
-export class ECAppScreen {
-
-}
+export class ECAppScreen {}

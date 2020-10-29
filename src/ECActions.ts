@@ -1,6 +1,5 @@
-export class ECActions{
-    static CLOSE_ACTION = {
-        icon: 'close',
-        
-    }
+export class ECActions {
+  static CLOSE_ACTION = {
+    icon: 'close',
+  };
 }
