@@ -1,5 +1,11 @@
+import { ECAppScreen } from './ECAppScreen';
+
 export abstract class ECApp {
   private aNumber = 10;
+
+  private screens!: ECAppScreen[];
+  private currentScreen!: ECAppScreen;
+  private launchScreen!: ECAppScreen;
 
   static async getInstanceOf(className: string, path: string) {
     const AppClassImport = await import(path);
